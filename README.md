@@ -38,6 +38,7 @@ graph LR
 - **Processamento:** Cluster Databricks Community (Spark 3.x).
 - **Bibliotecas:** `pyspark`, `pandas`, `openpyxl`, `requests`.
 - **Armazenamento:** Delta Lake.
+- **inteligência Artificial:** Uso do `Google Gemini` para auxilio em organização e elaboração de códigos
 
 ---
 
@@ -89,12 +90,12 @@ As análises foram realizadas via SQL (ver `2_Analise_SQL.sql`). Abaixo, exemplo
 ```text
 /
 ├── README.md                 # Documentação principal (Este arquivo)
-├── CATALOGO.md               # Dicionário de dados detalhado
-├── AUTOAVALIACAO.md          # Reflexão e autoavaliação do aluno
+├── Catálogo.md               # Dicionário de dados detalhado
+├── AutoAvaliação.md          # Reflexão e autoavaliação do aluno
 │
 ├── notebooks/
-│   ├── 1_Pipeline_ETL.py     # Código Fonte do ETL (PySpark)
-│   └── 2_Analise_SQL.sql     # Consultas de Análise e Qualidade
+│   ├── 1_Pipeline_ETL_Engenharia.ipynb     # Código Fonte do ETL (PySpark)
+│   └── 2_Analise_SQL.ipynb    # Consultas de Análise e Qualidade
 │
 └── evidencias/               # Screenshots e gráficos gerados
     ├── 1- ANÁLISE DE CONSERVAÇÃO POR FAMÍLIA.png
